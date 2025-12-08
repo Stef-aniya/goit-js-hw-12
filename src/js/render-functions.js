@@ -43,3 +43,13 @@ export function showLoader(){
 export function hideLoader(){
     loader.classList.add('hidden')
 }
+
+const btn = document.querySelector('.btn')
+
+export function showLoadBtn(){
+    btn.classList.remove('btn-hidden')
+}
+
+export function hideLoadBtn(){
+    btn.classList.add('btn-hidden')
+}
