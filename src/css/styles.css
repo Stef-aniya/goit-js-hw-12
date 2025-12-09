@@ -41,7 +41,7 @@ body {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 .loader {
   width: 40px;
@@ -61,3 +61,6 @@ body {
 .btn-hidden {
   display: none;
 }
+/* .loader.hidden{
+  display: none !important;
+} */
